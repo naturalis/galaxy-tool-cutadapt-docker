@@ -11,6 +11,7 @@
 3. Add the tool to galaxy
 
 ```sudo cp galaxy-tool-cutadapt-docker/cutadapt_docker.sh /home/galaxy/galaxy/tools/identify/cutadapt_docker.sh```
+
 ```sudo cp galaxy-tool-cutadapt-docker/cutadapt_docker.xml /home/galaxy/galaxy/tools/identify/cutadapt_docker.xml```
 
 4. Add the tool to the tool menu
