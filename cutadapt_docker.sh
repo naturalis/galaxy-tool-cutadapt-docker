@@ -7,5 +7,5 @@ INFILE=$(basename "${1}")
 OUTDIR=$(dirname "${8}")
 OUTZIP_FILE=$(basename "${8}")
 OUTLOG_FILE=$(basename "${9}")
-docker run -v ${INDIR}:/input -v ${OUTDIR}:/output -e i="/input/${INFILE}" -e t="${2}" -e fp="${5}" -e rp="${6}" -e e="${4}" -e l="${7}" -e o="/output/${OUTZIP_FILE}" -e ol="/output/${OUTLOG_FILE}" cut_galaxy  
+docker run -v ${INDIR}:/input -v ${OUTDIR}:/output -e i="/input/${INFILE}" -e t="${2}" -e fp="${5}" -e rp="${6}" -e e="${4}" -e l="${7}" -e o="/output/${OUTZIP_FILE}" -e ol="/output/${OUTLOG_FILE}" cutadapt_galaxy  
 
